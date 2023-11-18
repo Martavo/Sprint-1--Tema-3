@@ -8,8 +8,7 @@ $notas = array(
 
 calculos($notas);
 
-function calculos($notas)
-{
+function calculos(array $notas){
     $mediaAlumno = array();
 
     foreach ($notas as $nombre => $nota) {
